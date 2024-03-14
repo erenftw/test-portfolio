@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="nav-container">
+        <header>
+            <a href="index.html" class="logo">Eren Yusuf</a>
+            <nav>
+                <ul>
+                    <li><a href="#">My work</a></li>
+                    <li><a href="#">My skills</a></li>
+                    <li><a href="#">Hire me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="social-header">
+            <ul>
+                <li><a href="#"><img src="images/behance.svg" alt="behance"></a></li>
+                <li><a href="#"><img src="images/dribbble.svg" alt="dribbble"></a></li>
+                <li><a href="#"><img src="images/twitter.svg" alt="x or twitter"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="content">
+            <h1>Beautifully Crafted Web Experiences</h1>
+            <div class="meet">
+                <p>Meet Eren Yusuf</p>
+            </div>
+        </div>
+        <svg class="hero-design" width="395" height="422" viewBox="0 0 395 422" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="202" width="97" height="97" rx="10" fill="#6E00FF"/>
+            <rect x="202" y="216" width="97" height="97" rx="10" fill="#6E00FF"/>
+            <rect x="298" y="108" width="97" height="97" rx="10" fill="#6E00FF" fill-opacity="0.3"/>
+            <rect x="97" y="110" width="97" height="97" rx="10" fill="white"/>
+            <rect x="97" y="325" width="97" height="97" rx="10" fill="white"/>
+            <rect y="221" width="97" height="97" rx="10" fill="white" fill-opacity="0.25"/>
+            <ellipse cx="249" cy="157.5" rx="47" ry="49.5" fill="#FF64CB"/>
+            <ellipse cx="147" cy="264" rx="47" ry="48" fill="#00F7FF"/>
+            </svg>
+         </div>
+         <section class="featured">
+            <div class="left">
+                <div class="inner transition2">
+                    <p class="subtitle">Featured Project</p>
+                    <a href="#" class="featured-title">Fauxica ReDesign</a>
+                    <p class="featured-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae id impedit nesciunt ad fugit provident voluptatem reiciendis assumenda dolorem nam.
+                    </p>
+                </div>
+            </div>
+            <img class="right transition2" src="images/fauxica.png" alt="Redesigned Fauxica Website">
+         </section>
+         <section class="skills">
+            <div class="skills-container">
+                <ul>
+                    <li class="transition2">
+                        <p class="skill-title">UI UX Design</p>
+                        <p class="featured-desc skill-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem enim nihil praesentium sunt tempore, minus quisquam quas? Fuga, nostrum blanditiis?
+                        </p>
+                        <li class="transition2">
+                            <p class="skill-title">Frontend Development</p>
+                            <p class="featured-desc skill-desc">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem enim nihil praesentium sunt tempore, minus quisquam quas? Fuga, nostrum blanditiis?
+                            </p>
+                    </li>
+                </ul>
+            </div>
+         </section>
+         <section class="portfolio">
+            <div class="portfolio-container transition3">
+                <div class="portfolio-left">
+                    <div class="inner">
+                        <p class="subtitle">Conferencecalling Redesign</p>
+                        <p class="featured-title">Redesigned Conferencecalling Website</p>
+                        <p class="featured-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum atque perferendis debitis explicabo fugit optio nesciunt id nisi nam!
+                        </p>
+                    </div>
+                </div>
+                <a href="#"><img src="images/conferencecalling.png" alt="Conferencecalling"></a>
+            </div>
+         </section>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <script>
+            var tl = gsap.timeline();
+            tl.from('.content', {
+                y: '-30%',
+                opacity: 0,
+                duration: 2,
+                ease: Power4.easeOut
+            })
+         </script>
+</body>
+</html>
